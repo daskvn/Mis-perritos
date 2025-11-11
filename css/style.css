@@ -3,3 +3,9 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 24px;
 }
+article img {
+    width: 400px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
