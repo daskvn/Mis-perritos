@@ -1,29 +1,33 @@
-body {
-    background-color: lightyellow;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 24px;
+body { /* Estilo para el cuerpo del documento */
+    background-color: lightyellow; /* controla el color del fondo de la pagina */
+    font-family: 'Courier New', Courier, monospace; /* Fuente del body :v */
+    margin: 24px; /* Margen alrededor del cuerpo */
 }
-article img {
-    width: 400px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 12px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+article img {  /* Estilo para las imágenes dentro de los artículos */
+    width: 400px; /* Ancho fijo de 400px */
+    border: 2px solid rgb(0, 0, 0);  /* controla el borde de la imagen */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
 }
 article {
    scroll-margin-top: 80px; /* Ajusta este valor según la altura de tu encabezado fijo */
 }
 header h1 {
-    color: rgb(4, 4, 247);
-    font-size: 45px;
-    text-align: center;
+    color: rgb(4, 4, 247);  /* Color azul para el título */
+    font-size: 45px;       /* Tamaño de fuente más grande para el título */
+    text-align: center;  /* Centra el título */
 }
 header p {
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
+    font-size: 20px;     /* Tamaño de fuente más grande para el subtítulo */
+    text-align: center; /* Centra el subtítulo */
+    font-weight: bold; /* Hace el subtítulo en negrita */
 }
 nav {
-    text-align: center;
-    margin-bottom: 20px;
-    bottom: auto;
+    text-align: center;  /* Centra el contenido del nav */
+    margin-bottom: 20px; /* Espacio debajo del nav */
+    bottom: auto; /* Asegura que no esté pegado al fondo */
+    position: sticky; /* Hace que el nav sea fijo al hacer scroll */
+    top: 0; /* Posición desde la parte superior */
+    padding: 10px 0;    /* Espaciado interno */
+    z-index: 10;    /* Asegura que el nav esté por encima de otros elementos */
 }
